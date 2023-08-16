@@ -21,17 +21,17 @@ architecture mem of memoryCell is
         temp_D <= ((not WE) and Q) or (WE and D);
         dff_inst: dff
         PORT(
-            CLK  => CLK ;
-            D => temp_D;
-            RESET => RESET;
-            Q => Q;
+            CLK  => CLK,
+            D => temp_D,
+            RESET => RESET,
+            Q => Q,
             QNOT => QNOT
         );
 
         tri_inst: tristate
         PORT(
-            A => Q; 
-            EN => OE;
+            A => Q, 
+            EN => OE,
             Y => DOUT
         );
 end architecture
