@@ -1,6 +1,11 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+-- Include the library containing dff and tristate components
+library work; -- Or replace with the appropriate library name
+use work.dff.all;
+use work.tristate.all;
+
 entity memoryCell is
   port (
     CLK   : in std_logic;
@@ -34,4 +39,4 @@ architecture mem of memoryCell is
             EN => OE,
             Y => DOUT
         );
-end architecture;
+end mem;
