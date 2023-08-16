@@ -1,0 +1,32 @@
+C:/Users/robom/Desktop/vhdl/tristate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/robom/Desktop/vhdl/tristate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristate
+-- Compiling architecture arch of tristate
+
+} {} {}} C:/Users/robom/Desktop/vhdl/dff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/robom/Desktop/vhdl/dff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behv of dff
+
+} {} {}} C:/Users/robom/Desktop/vhdl/memoryCell.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\robom\Desktop\vhdl\memoryCell.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity memoryCell
+-- Compiling architecture mem of memoryCell
+** Error: C:\Users\robom\Desktop\vhdl\memoryCell.vhd(21): Cannot read output "Q".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Error: C:\Users\robom\Desktop\vhdl\memoryCell.vhd(23): near "(": (vcom-1576) expecting MAP.
+** Error: C:\Users\robom\Desktop\vhdl\memoryCell.vhd(31): Statement cannot be labeled.
+** Error: C:\Users\robom\Desktop\vhdl\memoryCell.vhd(32): near "(": (vcom-1576) expecting MAP.
+** Note: C:\Users\robom\Desktop\vhdl\memoryCell.vhd(37): VHDL Compiler exiting
+
+} {8.0 9.0 11.0 14.0} {}}
