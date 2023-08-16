@@ -9,7 +9,7 @@ entity memoryCell is
     WE: in std_logic; -- write enable
     OE: in std_logic; -- output enable
     Q  : out std_logic;
-    QNOT: out std_logic
+    QNOT: out std_logic;
     DOUT: out std_logic -- output of tristate buffer stage
   ) ;
 end memoryCell
@@ -34,4 +34,4 @@ architecture mem of memoryCell is
             EN => OE,
             Y => DOUT
         );
-end architecture
+end architecture;
